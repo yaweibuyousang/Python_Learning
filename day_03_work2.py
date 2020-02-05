@@ -1,0 +1,15 @@
+import turtle as t
+t.penup()
+t.fd(-300)
+t.pensize(25)
+t.pencolor("purple")
+t.pendown()
+t.seth(-40)
+for i in range(4):
+    t.circle(40,80)
+    t.circle(-40,80)
+t.circle(40,80/2)
+t.fd(40)
+t.circle(16,180)
+t.fd(40*2/3)
+t.done()
